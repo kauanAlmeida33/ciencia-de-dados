@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --bg-color: #17153B;
+    --primary-color: #2E236C;
+    --secondary-color: #C8ACD6;
+    --tipo-fonte: "Kanit", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: var(--tipo-fonte);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+h1{
+    font-size: 2rem;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.graicos-container_texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
