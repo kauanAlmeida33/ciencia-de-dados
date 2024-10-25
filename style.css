@@ -31,6 +31,9 @@ nav a{
     text-decoration: none;
     color: var(--secondary-color);
 }
+#graficos-container {
+    margin: 5rem;
+}
 .graicos-container_texto {
     font-size: 1.3rem;
     text-align: center;
